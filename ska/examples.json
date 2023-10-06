@@ -1,0 +1,88 @@
+[{"access" : {
+    "globus" : {
+      "name" : "Globus", 
+      "location" : { 
+        "LLNL" : {
+          "endpoint" : "18df6a55-aabf-4c93-a494-f34a6c814e0d",
+          "path": "/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
+        },
+        "ANL" : {
+          "endpoint" : "a6644676-a234-45f6-b4c2-5bbb46d18c84",
+          "path" : "/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
+        }
+      }
+    },
+    "https" : {
+      "name" : "HTTPServer",
+      "mime" : "",
+      "url" : {
+        "LLNL" : "https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+        "ANL" : "https://globus.site.anl.gov/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+        "ORNL" : "https://esgf-node.ornl.gov/thredds/fileServer/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+      }
+    },
+    "opendap" : {
+      "name" : "OPeNDAP",
+      "url" : {
+        "ORNL" : "http://esgf-node.ornl.gov/thredds/dodsC/css03_data/CMIP6/CMIP/CCCma/CanESM5/amip/r4i1p2f1/Lmon/nppWood/gn/v20190429/nppWood_Lmon_CanESM5_amip_r4i1p2f1_gn_195001-201412.nc"
+      }
+    },
+    "zarr" : {
+      "name" : "ZARR",
+      "url" : {
+        "Pangeo-AWS" : "s3://",
+        "LLNL" : "s3://"
+      }
+    },
+    "s3" : { 
+      "name" : "S3",
+      "url" : {}
+    }
+  },
+  "data_node" : {
+    "LLNL" :  "esgf-data1.llnl.gov",
+    "ANL" :
+     "globus.site.anl.gov",
+    "ORNL" : "esgf-node.ornl.gov"
+  },
+  "history" : [
+    {
+      "date" : "timestamp",
+      "note" : "original-publication",
+      "published-at" : "DIAS.JP"
+    },
+    {
+      "date" : "timestamp2",
+      "note" : "replica-publication",
+      "published-at" : "LLNL"
+    }
+  ]
+},
+{
+  "location" : {
+    "LLNL" : {
+      "globus" : {
+        "endpoint" : "18df6a55-aabf-4c93-a494-f34a6c814e0d",
+        "path": "/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
+      },
+      "https" :  "https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+      "opendap" : "httpz://esgf-data1.llnl.gov/thredds/dodsC/css03_data/CMIP6/CMIP/CCCma/CanESM5/amip/r4i1p2f1/Lmon/nppWood/gn/v20190429/nppWood_Lmon_CanESM5_amip_r4i1p2f1_gn_195001-201412.nc"
+    },
+    "ANL" : {
+      "globus" : {
+        "endpoint" : "a6644676-a234-45f6-b4c2-5bbb46d18c84",
+        "path" : "/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
+      },
+      "https" : "https://globus.site.anl.gov/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+    },
+    "ORNL" : {
+      "https" :   "https://esgf-node.ornl.gov/thredds/fileServer/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+      "opendap" : "https://esgf-data1.llnl.gov/thredds/dodsC/css03_data/CMIP6/CMIP/CCCma/CanESM5/amip/r4i1p2f1/Lmon/nppWood/gn/v20190429/nppWood_Lmon_CanESM5_amip_r4i1p2f1_gn_195001-201412.nc"
+    } 
+  },
+  "access" : {
+    "opendap" : "OPenDAP",
+    "https" : "HTTPServer",
+    "globus" : "Globus"
+  } 
+}]
