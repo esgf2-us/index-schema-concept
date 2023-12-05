@@ -1,15 +1,9 @@
 [{"access" : {
     "globus" : {
       "name" : "Globus", 
-      "location" : { 
-        "LLNL" : {
-          "endpoint" : "18df6a55-aabf-4c93-a494-f34a6c814e0d",
-          "path": "/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
-        },
-        "ANL" : {
-          "endpoint" : "a6644676-a234-45f6-b4c2-5bbb46d18c84",
-          "path" : "/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
-        }
+      "url" : { 
+        "LLNL" : "globus://18df6a55-aabf-4c93-a494-f34a6c814e0d/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
+        "ANL" :  "globus://a6644676-a234-45f6-b4c2-5bbb46d18c84/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
       }
     },
     "https" : {
@@ -54,18 +48,14 @@
 {
   "location" : {
     "LLNL" : {
-      "globus" : {
-        "endpoint" : "18df6a55-aabf-4c93-a494-f34a6c814e0d",
-        "path": "/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
-      },
+      "globus" : 
+      "globus://18df6a55-aabf-4c93-a494-f34a6c814e0d/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
       "https" :  "https://esgf-data1.llnl.gov/thredds/fileServer/css03_data/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
       "opendap" : "httpz://esgf-data1.llnl.gov/thredds/dodsC/css03_data/CMIP6/CMIP/CCCma/CanESM5/amip/r4i1p2f1/Lmon/nppWood/gn/v20190429/nppWood_Lmon_CanESM5_amip_r4i1p2f1_gn_195001-201412.nc"
     },
     "ANL" : {
-      "globus" : {
-        "endpoint" : "a6644676-a234-45f6-b4c2-5bbb46d18c84",
-        "path" : "/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc"
-      },
+      "globus" : 
+      "globus://a6644676-a234-45f6-b4c2-5bbb46d18c84/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
       "https" : "https://globus.site.anl.gov/path/to/CMIP6/PMIP/MIROC/MIROC-ES2L/lgm/r1i1p1f2/Amon/rsutcs/gn/v20191002/rsutcs_Amon_MIROC-ES2L_lgm_r1i1p1f2_gn_320001-329912.nc",
     },
     "ORNL" : {
